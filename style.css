@@ -1,0 +1,135 @@
+/* --- Import Font Modern dari Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* --- Reset & Settingan Dasar --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* --- Header / Bagian Atas --- */
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* --- Konten Utama (Main) --- */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Styling Judul Section --- */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #1e3c72;
+    border-bottom: 3px solid #2a5298;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+section h3 {
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    background-color: #eef2f5;
+    padding: 8px 12px;
+    border-left: 4px solid #2a5298;
+    border-radius: 4px;
+}
+
+/* --- Styling List (Jadwal & Menu) --- */
+ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+ul li {
+    padding: 8px 12px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* --- Garis Pembatas --- */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 30px 0;
+}
+
+/* --- Styling Tabel Piket --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table thead {
+    background-color: #1e3c72;
+    color: #ffffff;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+table tbody tr:hover {
+    background-color: #eef2f5;
+}
+
+/* --- Footer / Bagian Bawah --- */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: #666666;
+    font-size: 0.9rem;
+}
